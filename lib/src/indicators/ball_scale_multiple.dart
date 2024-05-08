@@ -14,7 +14,7 @@ class _BallScaleMultipleState extends State<BallScaleMultiple>
     with TickerProviderStateMixin, IndicatorController {
   static const _durationInMills = 5000;
 
-  static const _delayInMills = [1000, 2000, 4000];
+  static const _delayInMills = [500, 2000, 4000];
 
   final List<AnimationController> _animationControllers = [];
   final List<Animation<double>> _scaleAnimations = [];
