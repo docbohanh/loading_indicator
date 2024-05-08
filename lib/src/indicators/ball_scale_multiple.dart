@@ -12,9 +12,9 @@ class BallScaleMultiple extends StatefulWidget {
 
 class _BallScaleMultipleState extends State<BallScaleMultiple>
     with TickerProviderStateMixin, IndicatorController {
-  static const _durationInMills = 1000;
+  static const _durationInMills = 5000;
 
-  static const _delayInMills = [0, 200, 400];
+  static const _delayInMills = [0, 1000, 2000];
 
   final List<AnimationController> _animationControllers = [];
   final List<Animation<double>> _scaleAnimations = [];
